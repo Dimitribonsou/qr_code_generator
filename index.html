@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generateur de code qr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenue sur le Generateur de code Qr  <span>@dimidevQrcode</span> </h1>
+        <div class="qrcode-content">
+           
+                <div class="left">
+                     <img src="" id="img_qrCode" alt="code qr">
+                </div>
+                <div class="right">
+                    <div class="ligne"> 
+                        <input type="text" placeholder=" code qr generer "  class=" " id="codeqr" readonly>
+                        <input type="button" placeholder="" value="valider" id="btnsave">
+                     </div>
+                     <span id="sms_qrcode"> </span>
+                        <input type="button" placeholder="" value="Generer un nouveau code QR" id="btncode">
+                </div>
+          
+            <div class="liste_qrcode">
+                <div class="tr"  >
+                    <div class="th">Numero</div>
+                    <div class="th">Code QR</div>
+                </div>
+                <div id="liste_qrcodecontent">
+                  
+                </div>
+               
+            </div>
+        </div>
+    </div>
+        <script src="./script.js"></script>
+</body>
+</html>
